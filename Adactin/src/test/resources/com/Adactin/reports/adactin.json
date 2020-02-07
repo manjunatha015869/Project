@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Page",
+        "description": "",
+        "id": "adactin-hotel-booking;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5325765000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the Chrome Browser",
+            "match": {
+              "location": "Stepdefinition.user_opens_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2694732800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user goes inside the Adactin application",
+            "match": {
+              "location": "Stepdefinition.user_goes_inside_the_Adactin_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470794100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user gives the username in the Username field",
+            "match": {
+              "location": "Stepdefinition.user_gives_the_username_in_the_Username_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328965200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user gives the Password in the Password field",
+            "match": {
+              "location": "Stepdefinition.user_gives_the_Password_in_the_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4705560100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks the Login Button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_the_Login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Registration Page",
+        "description": "",
+        "id": "adactin-hotel-booking;registration-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 551395100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Selects the location from dropdown",
+            "match": {
+              "location": "Stepdefinition.user_Selects_the_location_from_dropdown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363515100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects the hotel from dropdown",
+            "match": {
+              "location": "Stepdefinition.user_selects_the_hotel_from_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 374983500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects the room type",
+            "match": {
+              "location": "Stepdefinition.user_selects_the_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287534700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user selects the number of rooms",
+            "match": {
+              "location": "Stepdefinition.user_selects_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2537175700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects the checkin date",
+            "match": {
+              "location": "Stepdefinition.user_selects_the_checkin_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2530588300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects the checkout date",
+            "match": {
+              "location": "Stepdefinition.user_selects_the_checkout_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410067900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user gives the number of adults per room",
+            "match": {
+              "location": "Stepdefinition.user_gives_the_number_of_adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 391513700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user gives the number of childrens per room",
+            "match": {
+              "location": "Stepdefinition.user_gives_the_number_of_childrens_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3190895400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks the search button",
+            "match": {
+              "location": "Stepdefinition.user_clicks_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects the reset button",
+            "match": {
+              "location": "Stepdefinition.user_selects_the_reset_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2391868700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "it checks for the proper checkin and checkout date",
+            "match": {
+              "location": "Stepdefinition.it_checks_for_the_proper_checkin_and_checkout_date()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Hotel Booking",
+    "description": "",
+    "id": "adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/Adactin/Feature/Adactin.feature"
+  }
+]
